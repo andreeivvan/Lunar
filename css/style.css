@@ -286,6 +286,7 @@ body  {
     background: #FFF4F4;
     padding: 135px 0px 285px 0px;
     position: relative;
+    z-index: 1;
 }
 .about__content {
     text-align: center;  
@@ -417,6 +418,8 @@ body  {
     text-align: center;
     background: #DD7979;
     border-radius: 25px;
+    position: relative;
+    z-index: 1;
 
 }
 .advantages {
@@ -506,11 +509,22 @@ body  {
 /* Landing---------------------------------------------------------------------------------- */
 
 .main__landing {
+    position: relative;
+    background: #FFF4F4;
+    justify-content: center;
 }
 .landing {
-    padding: 120px 0px 190px 0px ;
+    padding: 120px 0px 210px 0px;
+    position: relative;
+    z-index: 1;
 }
+.landing__image-decor {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
 
+}
 .head--landing {
 }
 .head__text--landing {
@@ -518,9 +532,11 @@ body  {
 .head__title--landing {
 }
 .landing__pages {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 1;
     
 }
 .landing__page {
@@ -529,6 +545,7 @@ body  {
 
 .landing__page-image {
     max-width: 100%; 
+    
 }
 .landing__page-title {
     font-family: 'Inter';
@@ -552,4 +569,48 @@ body  {
     .landing__page-image {
         width: 100%; 
     }
+}
+
+.main__you-get {
+}
+.you-get {
+    padding: 120px 0px;
+}  
+.head--you-get {
+    padding: 0px 0px 61px 0px;
+}
+.head__text--you-get {
+}
+.head__title--you-get {
+}
+.you-get__cards {
+    display: flex;
+      
+}
+.you-get__card-image {
+    
+}
+.you-get__card {
+    padding: 20px;
+  
+}
+.you-get__card-content {
+    padding: 50px 40px 50px 40px;
+}
+.you-get__card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #744343;
+    margin: 0px 0px 23px 0px;
+}
+.you-get__card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #967272;
 }
