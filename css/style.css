@@ -590,19 +590,25 @@ body  {
 }
 
 .you-get__card {
-    overflow: hidden;
-    width: 373px;
     height: 252px;
-    position: relative;
+    width: 373px;
+    margin: 10px;
+    overflow: hidden;
+    border: none;
+    background:  #FFFFFF;
     box-shadow: 0px 10px 30px rgba(116, 67, 67, 0.1);
-    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+ 
 }
 
 .you-get__card-image {
-   width: 100%;
-   object-fit: none;
-   position: absolute;
+    position: absolute;
+    width: 100%;
+    object-fit: none;
 }
+
+
 .you-get__card-content {
     padding: 50px 10px 10px 40px;
     position: relative; 
@@ -630,13 +636,11 @@ body  {
 
 
 @media (max-width:819px){
-    
-
    
 }
 
 @media (max-width:767px){
-    
+   
 }
 @media (min-width:1024px){
    
