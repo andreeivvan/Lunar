@@ -572,7 +572,7 @@ body  {
 }
 
 .main__you-get {
-    background-color: #FFFFFF;
+    background-color: green;
 }
 .you-get {
     padding: 120px 0px;
@@ -582,7 +582,7 @@ body  {
 }
 .head__text--you-get {
 }
-.head__title--you-get {
+.head__title--you-get { 
 }
 .you-get__cards {
     display: flex;
