@@ -572,7 +572,7 @@ body  {
 }
 
 .main__you-get {
-    background-color: #c24848;
+    background-color: #FFFFFF;
 }
 .you-get {
     padding: 120px 0px;
@@ -641,7 +641,9 @@ body  {
 }
 
 @media (max-width:767px){
-   
+    .you-get__card {
+        margin: 10px 0px;
+    }
 }
 @media (min-width:1024px){
    
