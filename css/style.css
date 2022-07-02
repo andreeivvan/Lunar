@@ -572,7 +572,7 @@ body  {
 }
 
 .main__you-get {
-    background-color: green;
+    background-color: white;
 }
 
 .you-get {
@@ -637,13 +637,49 @@ body  {
 }
 
 
-@media (max-width:819px){
-   
-}
-
 @media (max-width:767px){
     .you-get__card {
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 25px 0px;
+    }
+}
+@media (max-width:426px){
+
+    .you-get__card {
+        height: 230px;
     }
 }
 
+/* Site-map------------------------------------------------------- */
+.main__site-map {
+    background-color: #FFF4F4;
+}
+.site-map {
+}
+.site-map__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-auto-rows: 106px;
+    grid-gap: 16px 30px;
+    text-align: center;
+    margin: 0px 0px 16px 0px;
+}
+.site-map__grid-last-two {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(570px, 1fr));
+    grid-auto-rows: 106px;
+    grid-gap: 16px 30px;
+    text-align: center;
+    
+}
+.site-map__grid-cell {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #744343;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
