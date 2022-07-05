@@ -562,7 +562,9 @@ body  {
 }
 
 @media (max-width:1200px){
-   
+    .landing {
+        padding: 60px 0px 60px 0px;
+    }
     .landing__page {
         flex: 1 1 100%;
         padding: 20px 0px;
@@ -637,14 +639,22 @@ body  {
     padding: 0px 10px 0px 0px;
 }
 
-
+ 
+@media (max-width:1200px){
+    .you-get {
+        padding: 60px 0px;
+    } 
+}
 @media (max-width:767px){
+    .you-get {
+        padding: 30px 0px;
+    } 
     .you-get__card {
         margin: 0px 0px 25px 0px;
     }
 }
 @media (max-width:426px){
-
+    
     .you-get__card {
         height: 230px;
     }
@@ -654,6 +664,7 @@ body  {
 .main__site-map {
     background-color:  #FFF4F4;
     position: relative;
+    padding: 0px 0px 44px 0px;
 }
 .site-map {
     text-align: center;
@@ -690,14 +701,89 @@ body  {
     padding: 5px;
 }
 
+.site-map__newsletter {
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+}
+.newsletter__head {
+    margin: 0px 0px 127px 0px;
+}
+.head--newsletter {
+    position: relative;
+    z-index: 2;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+}
+.form--newsletter {
+    width: 100%;
+    margin: 0px 0px 32px 0px;
+}
+.input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 183%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    background: #FFFFFF;
+    border: 2px solid #FFBABA;
+    border-radius: 10px;
+    padding: 19px 20px;
+    text-align: left;
+    
+    
+}
+.input--newsletter {
+    margin: 0px 0px 20px 0px;
+}
+.button--newsletter {
+}
+.newsletter__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171% ;
+    text-align: center;
+    color: #744343;
+    position: relative;
+    z-index: 2;
+}
+.newsletter__image-decor {
+    position: absolute;
+    z-index: 1;
+}
+.newsletter__image-decor--left {
+    top: 0;
+    left: 0;
+}
+.newsletter__image-decor--right {
+    bottom: 0;
+    right: 0;
+}
 .site-map__image {
     position: absolute;
     bottom: 0;
     width: 100%;
     z-index: 0;
 }
-
 @media (max-width:1200px){
+    .site-map {
+        padding: 90px 0px 90px 0px;
+    }
     .site-map__item {
         flex: 0 1 50%;
     }
@@ -711,5 +797,8 @@ body  {
     }
     .site-map__item-content {
         margin: 8px 0px;
+    }
+    .site-map {
+        padding: 30px 0px 30px 0px;
     }
 }
